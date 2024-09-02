@@ -15,7 +15,7 @@ os.environ['LANGCHAIN_API_KEY'] = langsmith_api_key
 os.environ['LANGCHAIN_TRACING_V2'] = "true"
 
 # FastAPI endpoint URL
-API_URL = "http://localhost:8000/answer"
+API_URL = "https://ai-powered-question-answering-system-8w85.onrender.com/answer"
 
 def get_answer_response(question):
     # Send the question to the FastAPI server
